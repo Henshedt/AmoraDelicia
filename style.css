@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: #421c00d2;
+    background-image: url('./img/background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 60px 90px;
+}
+
+.logo {
+    font-size: 15px;
+}
+
+.logo a {
+    text-decoration: none;
+    font-weight: 700;
+    color: #a97b4c;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.logo span {
+    color: #903b0d;
+}
+
+
+.nav-bar ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+
+
+.nav-bar a {
+    text-decoration: none;
+    color: #a97b4c;
+}
+
+.nav-bar a:hover {
+    transition: .3s;
+    color: #903b0d;
+}
+
+.container {
+    display: flex;
+    max-width: 100%;
+}
+
+.left-side {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+.left-side h2 {
+    color: #903b0d;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.left-side span {
+    color: #a97b4c;
+}
+
+.left-side p {
+    color: #a97b4c;
+    font-weight: 300;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.left-side img {
+    width: 250px;
+    height: auto;
+    border-radius: 50px;
+    margin-top: 25px;
+    border: solid 10px #421c00d2;
+}
+
+.left-side button {
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 25px;
+    background-color: #421c00d2;
+    color: #a97b4c;
+    border: none;
+    cursor: pointer;
+}
+
+.left-side button:hover {
+    transition: .5s ease;
+    background-color: #903b0d;
+}
+
+.right-side {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    flex-wrap: wrap;
+    margin-right: 50px;
+}
+
+.right-side p {
+    font-size: 20px;
+    color: #a97b4c;
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+.right-side span {
+    color: #903b0d;
+}
